@@ -1,0 +1,2054 @@
+Unity Editor version:    2021.3.2f1 (d6360bedb9a0)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 10.15.7 (Build 19H1715)
+Darwin version:          19.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Users/009938/Desktop/Unite.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/009938/Documents/GitHub/BestMarioKartGame/My project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60346
+Successfully changed project path to: /Users/009938/Documents/GitHub/BestMarioKartGame/My project
+/Users/009938/Documents/GitHub/BestMarioKartGame/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 171.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
+[Subsystems] Discovering subsystems at path /Users/009938/Desktop/Unite.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Plus Graphics (low power)
+Using device Intel(R) Iris(TM) Plus Graphics (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics
+Initialize mono
+Mono path[0] = '/Users/009938/Desktop/Unite.app/Contents/Managed'
+Mono path[1] = '/Users/009938/Desktop/Unite.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Users/009938/Desktop/Unite.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Users/009938/Desktop/Unite.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.003411 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 111.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.275 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1275ms)
+		BeginReloadAssembly (204ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (8ms)
+		EndReloadAssembly (818ms)
+			LoadAssemblies (199ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (217ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (460ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (112ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (262ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.012251 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.846 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1848ms)
+		BeginReloadAssembly (169ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1465ms)
+			LoadAssemblies (144ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (526ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (611ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (440ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Users/009938/Desktop/Unite.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3370 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (96.1 KB). Loaded Objects now: 3845.
+Memory consumption went from 245.8 MB to 245.7 MB.
+Total: 3.431793 ms (FindLiveObjects: 0.268517 ms CreateObjectMapping: 0.142851 ms MarkObjects: 2.868032 ms  DeleteObjects: 0.151123 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 12813.044197 seconds.
+  path: Assets/ModAssets/Scripts
+  artifactKey: Guid(65465db9ee2d14c818becdbb395c9cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModAssets/Scripts using Guid(65465db9ee2d14c818becdbb395c9cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd08d511662ed65ad69f8aa7320073a6') in 0.010465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/ModAssets/Scripts/Backend
+  artifactKey: Guid(30ae847ab67cf4980bded43eee7a4627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModAssets/Scripts/Backend using Guid(30ae847ab67cf4980bded43eee7a4627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7947d2386a1db669abaaf5d3ae81682') in 0.001172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Packages/com.unity.ext.nunit
+  artifactKey: Guid(25a477c2f24db8778a4179421a32cc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit using Guid(25a477c2f24db8778a4179421a32cc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef33f36b89a5a284746f1bc5605769f') in 0.003895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Packages/com.unity.ext.nunit/package.json
+  artifactKey: Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit/package.json using Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40fc5629c4141466786b845dfe4fc31') in 3.406996 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007027 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.388 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3390ms)
+		BeginReloadAssembly (402ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (20ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (166ms)
+		EndReloadAssembly (2609ms)
+			LoadAssemblies (196ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1274ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (163ms)
+			SetupLoadedEditorAssemblies (831ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (138ms)
+				ProcessInitializeOnLoadAttributes (589ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3360 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (72.4 KB). Loaded Objects now: 3844.
+Memory consumption went from 251.7 MB to 251.6 MB.
+Total: 6.393178 ms (FindLiveObjects: 0.428541 ms CreateObjectMapping: 0.303062 ms MarkObjects: 5.477807 ms  DeleteObjects: 0.182139 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007130 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.998 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4000ms)
+		BeginReloadAssembly (331ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (156ms)
+		EndReloadAssembly (3380ms)
+			LoadAssemblies (149ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1211ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (292ms)
+			SetupLoadedEditorAssemblies (1269ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (175ms)
+				ProcessInitializeOnLoadAttributes (944ms)
+				ProcessInitializeOnLoadMethodAttributes (104ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3360 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (72.5 KB). Loaded Objects now: 3847.
+Memory consumption went from 252.2 MB to 252.1 MB.
+Total: 9.090697 ms (FindLiveObjects: 0.613885 ms CreateObjectMapping: 0.345679 ms MarkObjects: 7.938642 ms  DeleteObjects: 0.189596 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 79.156870 seconds.
+  path: Assets/PROMETEO - Car Controller/Prefabs
+  artifactKey: Guid(a8fd3b6af68cc1042a5c84e0e464b46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PROMETEO - Car Controller/Prefabs using Guid(a8fd3b6af68cc1042a5c84e0e464b46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265ec60a23131f250279323716c7238f') in 0.015398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014570 seconds.
+  path: Assets/PROMETEO - Car Controller/Prefabs/New Material.mat
+  artifactKey: Guid(afb90316f3f4b455cacfd68d0aa80b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PROMETEO - Car Controller/Prefabs/New Material.mat using Guid(afb90316f3f4b455cacfd68d0aa80b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da96a46d7df0f6af8caab4d7ddb95605') in 0.713165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000596 seconds.
+  path: Assets/PROMETEO - Car Controller/Prefabs/Prometheus.prefab
+  artifactKey: Guid(79d0ca8b77e301442afdb49f102e8aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PROMETEO - Car Controller/Prefabs/Prometheus.prefab using Guid(79d0ca8b77e301442afdb49f102e8aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a0e2b4b3f43b078d98ce653c7722e5') in 0.507306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.363122 seconds.
+  path: Assets/PROMETEO - Car Controller/Sounds/CarEngine.wav
+  artifactKey: Guid(771ce407ce807b74885ec23ebd1e6647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PROMETEO - Car Controller/Sounds/CarEngine.wav using Guid(771ce407ce807b74885ec23ebd1e6647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b1d35576007a2fc352d55195d4e5744') in 0.491837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/PROMETEO - Car Controller/Sounds/TireScreech.wav
+  artifactKey: Guid(f632e2ace80a32e47a2c531f64901a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PROMETEO - Car Controller/Sounds/TireScreech.wav using Guid(f632e2ace80a32e47a2c531f64901a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff7cbe3e6c9998b7d532523274218bc') in 0.019705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.239195 seconds.
+  path: Assets/PROMETEO - Car Controller/Fonts/Teko-Bold.ttf
+  artifactKey: Guid(eda16a574f5cf654b832867016f588f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PROMETEO - Car Controller/Fonts/Teko-Bold.ttf using Guid(eda16a574f5cf654b832867016f588f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e794b310ea87dc402cd2201646e336') in 0.831679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000639 seconds.
+  path: Assets/PROMETEO - Car Controller/Materials/Walls.physicMaterial
+  artifactKey: Guid(b36e29e623ce9b5468984c4324503438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PROMETEO - Car Controller/Materials/Walls.physicMaterial using Guid(b36e29e623ce9b5468984c4324503438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82f3c0f6e0cf20eee425f0566fddb87') in 0.308385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/PROMETEO - Car Controller/Materials/PCC_Col_Mat.mat
+  artifactKey: Guid(2d997c6d92b71154e8dee74617594aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PROMETEO - Car Controller/Materials/PCC_Col_Mat.mat using Guid(2d997c6d92b71154e8dee74617594aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0dc151037c1419d3447006d85a445b7') in 0.034359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/PROMETEO - Car Controller/Materials/PCC_ParkingZone_Mat.mat
+  artifactKey: Guid(6c7e85d89b2e5e34a93e7f83facefcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PROMETEO - Car Controller/Materials/PCC_ParkingZone_Mat.mat using Guid(6c7e85d89b2e5e34a93e7f83facefcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440bfdeabfb7e5038967f62ec97b4dfb') in 0.031771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/PROMETEO - Car Controller/Materials/PCC_Light_Mat.mat
+  artifactKey: Guid(975b4d94cd15da34d833f64957a8479a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PROMETEO - Car Controller/Materials/PCC_Light_Mat.mat using Guid(975b4d94cd15da34d833f64957a8479a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89131cea5bf2bb0a1973e83b0e591993') in 0.027735 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005425 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.991 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2993ms)
+		BeginReloadAssembly (414ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (160ms)
+		EndReloadAssembly (2170ms)
+			LoadAssemblies (222ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (914ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (112ms)
+			SetupLoadedEditorAssemblies (843ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (147ms)
+				ProcessInitializeOnLoadAttributes (612ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3356 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (72.5 KB). Loaded Objects now: 3892.
+Memory consumption went from 278.3 MB to 278.2 MB.
+Total: 6.083556 ms (FindLiveObjects: 0.385826 ms CreateObjectMapping: 0.302096 ms MarkObjects: 5.221249 ms  DeleteObjects: 0.171657 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.023836 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.961 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3962ms)
+		BeginReloadAssembly (441ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (206ms)
+		EndReloadAssembly (3109ms)
+			LoadAssemblies (222ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1715ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (163ms)
+			SetupLoadedEditorAssemblies (868ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (154ms)
+				ProcessInitializeOnLoadAttributes (618ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3360 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (72.6 KB). Loaded Objects now: 3898.
+Memory consumption went from 278.6 MB to 278.5 MB.
+Total: 6.496425 ms (FindLiveObjects: 0.452559 ms CreateObjectMapping: 0.413580 ms MarkObjects: 5.488913 ms  DeleteObjects: 0.139169 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005729 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.035 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3037ms)
+		BeginReloadAssembly (278ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (125ms)
+		EndReloadAssembly (2525ms)
+			LoadAssemblies (142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (950ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (143ms)
+			SetupLoadedEditorAssemblies (1086ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (167ms)
+				ProcessInitializeOnLoadAttributes (779ms)
+				ProcessInitializeOnLoadMethodAttributes (107ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3360 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (72.5 KB). Loaded Objects now: 3901.
+Memory consumption went from 278.8 MB to 278.8 MB.
+Total: 8.848376 ms (FindLiveObjects: 0.333225 ms CreateObjectMapping: 0.572142 ms MarkObjects: 7.756995 ms  DeleteObjects: 0.183932 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012322 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.850 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2852ms)
+		BeginReloadAssembly (344ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (166ms)
+		EndReloadAssembly (2268ms)
+			LoadAssemblies (137ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (688ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (183ms)
+			SetupLoadedEditorAssemblies (1019ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (140ms)
+				ProcessInitializeOnLoadAttributes (758ms)
+				ProcessInitializeOnLoadMethodAttributes (92ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3360 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (72.5 KB). Loaded Objects now: 3904.
+Memory consumption went from 279.0 MB to 279.0 MB.
+Total: 4.212702 ms (FindLiveObjects: 0.298773 ms CreateObjectMapping: 0.152621 ms MarkObjects: 3.630583 ms  DeleteObjects: 0.129008 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006117 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.713 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2714ms)
+		BeginReloadAssembly (327ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (157ms)
+		EndReloadAssembly (2171ms)
+			LoadAssemblies (129ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (684ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (138ms)
+			SetupLoadedEditorAssemblies (1036ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (157ms)
+				ProcessInitializeOnLoadAttributes (748ms)
+				ProcessInitializeOnLoadMethodAttributes (94ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3360 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (72.5 KB). Loaded Objects now: 3907.
+Memory consumption went from 279.2 MB to 279.1 MB.
+Total: 7.965665 ms (FindLiveObjects: 0.605132 ms CreateObjectMapping: 0.471295 ms MarkObjects: 6.571966 ms  DeleteObjects: 0.315063 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006785 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.322 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2324ms)
+		BeginReloadAssembly (398ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (22ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (193ms)
+		EndReloadAssembly (1665ms)
+			LoadAssemblies (148ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (723ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (628ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (453ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3407 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.7 MB). Loaded Objects now: 3944.
+Memory consumption went from 282.5 MB to 281.8 MB.
+Total: 5.376282 ms (FindLiveObjects: 0.322559 ms CreateObjectMapping: 0.189126 ms MarkObjects: 4.336996 ms  DeleteObjects: 0.525031 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 463.151070 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
+  artifactKey: Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset using Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64e23d336f1ab1a33695b7fe1e4648d') in 0.566014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013094 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset
+  artifactKey: Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset using Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b6ca446c087f816a6248ca1e1f8869') in 0.043694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f036ba19fdf7f5e2d862a6b0c9c1c4a0') in 0.226600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0138cb4aa5841fa638db31bc22925da3') in 0.073731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset
+  artifactKey: Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset using Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5265c17b2cde1269a6aa07c2185323') in 0.059210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3942e50124435ddb3b7a10a10b826d01') in 0.144875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000904 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset
+  artifactKey: Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset using Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80afa96f0117efd2eb25d3bd1c2fa431') in 0.079663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 936.963246 seconds.
+  path: Assets/eeee.unitypackage
+  artifactKey: Guid(c99b23f31e983438ca40f1a80045b5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/eeee.unitypackage using Guid(c99b23f31e983438ca40f1a80045b5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80db7d75853bd7bb3d477393810ad3de') in 0.044798 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006500 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.120 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2122ms)
+		BeginReloadAssembly (453ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (201ms)
+		EndReloadAssembly (1468ms)
+			LoadAssemblies (237ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (591ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (561ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (401ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3421 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (0.6 MB). Loaded Objects now: 3965.
+Memory consumption went from 288.2 MB to 287.6 MB.
+Total: 3.964405 ms (FindLiveObjects: 0.275297 ms CreateObjectMapping: 0.159488 ms MarkObjects: 3.021151 ms  DeleteObjects: 0.506968 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 55.770348 seconds.
+  path: Assets/Other/MLK2.0.jpeg
+  artifactKey: Guid(97b03fed7da4a4f3caca8635646b49a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MLK2.0.jpeg using Guid(97b03fed7da4a4f3caca8635646b49a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e9cee85ca7485535ddb3fe4951449a') in 0.827128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.575135 seconds.
+  path: Assets/Enemies/Android Logo.fbx
+  artifactKey: Guid(a85a0cafd600543f28933f3c3fed3b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Android Logo.fbx using Guid(a85a0cafd600543f28933f3c3fed3b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039af3fb8486f43666282baa966ca50f') in 0.669654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Enemies/Target.physicMaterial
+  artifactKey: Guid(1ac3b2a0550b941fdaca8fa000fe9c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Target.physicMaterial using Guid(1ac3b2a0550b941fdaca8fa000fe9c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b2776decf6ceb4d860730022b7e8ff') in 0.022476 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015555 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.104 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2106ms)
+		BeginReloadAssembly (419ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (177ms)
+		EndReloadAssembly (1487ms)
+			LoadAssemblies (206ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (579ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (613ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (439ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3411 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (0.6 MB). Loaded Objects now: 3966.
+Memory consumption went from 296.4 MB to 295.8 MB.
+Total: 7.162232 ms (FindLiveObjects: 0.414150 ms CreateObjectMapping: 0.335364 ms MarkObjects: 5.708995 ms  DeleteObjects: 0.701655 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16.944152 seconds.
+  path: Assets/AIMovementScript4.cs
+  artifactKey: Guid(94479eedc3cef44c8928cbe9c385bd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AIMovementScript4.cs using Guid(94479eedc3cef44c8928cbe9c385bd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506ed717ea53e2fa7a2c730bb74df592') in 0.507827 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007809 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.308 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2309ms)
+		BeginReloadAssembly (329ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (153ms)
+		EndReloadAssembly (1667ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (626ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (713ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (523ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3409 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.6 MB). Loaded Objects now: 3967.
+Memory consumption went from 300.7 MB to 300.1 MB.
+Total: 5.335382 ms (FindLiveObjects: 0.382976 ms CreateObjectMapping: 0.295389 ms MarkObjects: 4.138778 ms  DeleteObjects: 0.516515 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006291 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.413 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2414ms)
+		BeginReloadAssembly (298ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (147ms)
+		EndReloadAssembly (1843ms)
+			LoadAssemblies (123ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (770ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (705ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (138ms)
+				ProcessInitializeOnLoadAttributes (480ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3406 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (0.6 MB). Loaded Objects now: 3967.
+Memory consumption went from 300.8 MB to 300.2 MB.
+Total: 4.704180 ms (FindLiveObjects: 0.280164 ms CreateObjectMapping: 0.163630 ms MarkObjects: 3.754573 ms  DeleteObjects: 0.503998 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 38.595249 seconds.
+  path: Assets/New Folder
+  artifactKey: Guid(b0d5b675432a1450fad98a1f05fd4cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder using Guid(b0d5b675432a1450fad98a1f05fd4cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c5f7b25f3742684c878df86614353f') in 0.017704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 164.471788 seconds.
+  path: Assets/Scripts/Menu
+  artifactKey: Guid(91d6b6d35ab4048d4931f8fabb8c8630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Menu using Guid(91d6b6d35ab4048d4931f8fabb8c8630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '337d3730ef1720b0b18d7220a095f705') in 0.002671 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005608 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.658 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1660ms)
+		BeginReloadAssembly (240ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (111ms)
+		EndReloadAssembly (1255ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (485ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (520ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (376ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3411 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (0.6 MB). Loaded Objects now: 3975.
+Memory consumption went from 301.2 MB to 300.6 MB.
+Total: 3.327995 ms (FindLiveObjects: 0.335082 ms CreateObjectMapping: 0.154333 ms MarkObjects: 2.475054 ms  DeleteObjects: 0.362385 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 90.270375 seconds.
+  path: Assets/race-track-lake/Models/LakeTerrain.asset
+  artifactKey: Guid(4b8644c26c3eb2f4b99babbc1e5cce0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race-track-lake/Models/LakeTerrain.asset using Guid(4b8644c26c3eb2f4b99babbc1e5cce0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e58c3f69422a7c5da93eb6eb5ed2551') in 0.133457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 101.271992 seconds.
+  path: Assets/Scenes/finish.unitypackage
+  artifactKey: Guid(06d8f0dff243d4eb889cfaf0668b8366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/finish.unitypackage using Guid(06d8f0dff243d4eb889cfaf0668b8366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995de4f1d8a2ccd652b223e195b56758') in 0.012342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.302764 seconds.
+  path: Assets/Scripts/Menu/LoadPrefs.cs
+  artifactKey: Guid(441652e12f3d74d3db7b3d4ca71bfca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Menu/LoadPrefs.cs using Guid(441652e12f3d74d3db7b3d4ca71bfca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6475dc626f411f3af8d72079e40be296') in 0.014769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.161662 seconds.
+  path: Assets/Scripts/Menu/Level 1.unity
+  artifactKey: Guid(3b8e9b133567e4388975d44188e42bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Menu/Level 1.unity using Guid(3b8e9b133567e4388975d44188e42bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5646a4893de1406373c72edd1c61437d') in 0.003085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.081822 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Textures/AFRC_Env_Mat.png
+  artifactKey: Guid(34a74330fac842a4f97649ddf77d6d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Textures/AFRC_Env_Mat.png using Guid(34a74330fac842a4f97649ddf77d6d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0447522773f9b9d1789c47700eebbbae') in 0.579710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000497 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_grassgrass-nb5ecd127638d378a.terrainlayer
+  artifactKey: Guid(ef26252ba34f2428c9ff54a71851d108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_grassgrass-nb5ecd127638d378a.terrainlayer using Guid(ef26252ba34f2428c9ff54a71851d108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636fb1faad5b9b2dd8be17f6bae27f44') in 0.321533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/race-track-lake/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD2/Branches_0.mat
+  artifactKey: Guid(dffa6c1325fd30b41819f03be58b91e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race-track-lake/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD2/Branches_0.mat using Guid(dffa6c1325fd30b41819f03be58b91e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd841e12333fb59133378660b59c8d892') in 0.222765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat
+  artifactKey: Guid(749b9069dc4742c5bfa5c74644049926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat using Guid(749b9069dc4742c5bfa5c74644049926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a87ef09396bc0454d5bdb68395f257dd') in 0.186608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c23b144706822dcd79d9d4d96ffd214') in 0.264997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs (With Colliders)/Free Racing Car Purple Variant.prefab
+  artifactKey: Guid(62010132604e8c94d96b4cb4fe6d3394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs (With Colliders)/Free Racing Car Purple Variant.prefab using Guid(62010132604e8c94d96b4cb4fe6d3394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29e3187881fa3785265b54787081b06') in 0.047374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat
+  artifactKey: Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat using Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd46fe1241a597e3cb889c24b631212d9') in 0.158400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs (With Colliders)/Free Racing Car Gray Variant.prefab
+  artifactKey: Guid(4d1624804e8167f479ab63c5302ff1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs (With Colliders)/Free Racing Car Gray Variant.prefab using Guid(4d1624804e8167f479ab63c5302ff1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a39df66d6dd5c7722ec0f85d19a9ed') in 0.011936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg
+  artifactKey: Guid(03d0538de6e24c0f819bfc9ce084dfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg using Guid(03d0538de6e24c0f819bfc9ce084dfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f224a62aebb98ce7cff3f5595fbd51df') in 0.531295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat
+  artifactKey: Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat using Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b534f46a8e62cbf376671d7815e8a1') in 0.179148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg
+  artifactKey: Guid(6eb184de103d4b3f812b38561065192f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg using Guid(6eb184de103d4b3f812b38561065192f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c9e4dd21a537fea3e0b44a9a26f90b') in 0.020068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/race-track-lake/Textures/arrow-green.png
+  artifactKey: Guid(d9e8be3243a73944c931e93c450997e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race-track-lake/Textures/arrow-green.png using Guid(d9e8be3243a73944c931e93c450997e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607e7f405670e6d2864364a0d3e5e688') in 0.032347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg
+  artifactKey: Guid(2ce5c55e85304b819a1826ecbc839aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg using Guid(2ce5c55e85304b819a1826ecbc839aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a491ce2cec8e8c99f166d6b7b19907') in 0.035404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col5.png
+  artifactKey: Guid(ee5f07cb504e5b04dbdd32ef7d265c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col5.png using Guid(ee5f07cb504e5b04dbdd32ef7d265c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b4e99f7fe89a3135bee3ae601d3c586') in 0.022179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col4.png
+  artifactKey: Guid(1732d531203aec748bc591f92d780684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col4.png using Guid(1732d531203aec748bc591f92d780684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2ef12c70965644b5261c991d7a288c') in 0.030556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/race-track-lake/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD2/Branches_1.mat
+  artifactKey: Guid(57df284b8a7c87b4894ac5f9c86e0be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race-track-lake/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD2/Branches_1.mat using Guid(57df284b8a7c87b4894ac5f9c86e0be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '528c262e3868adea2b41aeaf62ec162d') in 0.038469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/race-track-lake/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0/Branches_0.mat
+  artifactKey: Guid(d4880c932a8e12b48a3039233e9634a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race-track-lake/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0/Branches_0.mat using Guid(d4880c932a8e12b48a3039233e9634a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e842d558e998b1b3449cb5347a1859e0') in 0.019874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/race-track-lake/Textures/grass.png
+  artifactKey: Guid(e09011273c52fe842913babf812f8967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race-track-lake/Textures/grass.png using Guid(e09011273c52fe842913babf812f8967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f467ab99b274c3e92d3054430ff7160') in 0.025870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/race-track-lake/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1/Branches_0.mat
+  artifactKey: Guid(54ee8e39b634b6d45aae528b6b24e879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race-track-lake/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1/Branches_0.mat using Guid(54ee8e39b634b6d45aae528b6b24e879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190b1b0ae4ff7a07a017d1b3a0a1fb26') in 0.022012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat
+  artifactKey: Guid(e6b9b44320f4448d9d5e0ee634259966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat using Guid(e6b9b44320f4448d9d5e0ee634259966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad3bf8d0174949bf3dd346d60ad91b6') in 0.945077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs (With Colliders)/Free Racing Car Red Variant.prefab
+  artifactKey: Guid(8a8f57edf3523624eb9f886833e8e97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs (With Colliders)/Free Racing Car Red Variant.prefab using Guid(8a8f57edf3523624eb9f886833e8e97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1557746338a90163a6e2f6d613b913de') in 0.011737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col2.png
+  artifactKey: Guid(6242e2ca19f64494ba8e4ae07a3a2c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col2.png using Guid(6242e2ca19f64494ba8e4ae07a3a2c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f38ce67091d3cdcbef022d14dd8d500b') in 0.019656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/race-track-lake/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1/Branches_1.mat
+  artifactKey: Guid(fecc9f713338e4943a8c38775af8c046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race-track-lake/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1/Branches_1.mat using Guid(fecc9f713338e4943a8c38775af8c046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d8f1033023fd8796f25041effd5f5f') in 0.027586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/race-track-lake/Textures/grass-n.png
+  artifactKey: Guid(5b5d7dac1f660014a9b3614ced6c7ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race-track-lake/Textures/grass-n.png using Guid(5b5d7dac1f660014a9b3614ced6c7ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b547b2890db79711890f6d232d6e98d') in 0.020067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5527babf88dcb6ff38db90a2359374') in 0.049885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Textures/AFRC_Tex_Emission.png
+  artifactKey: Guid(573a5992a1e562d45a64f56dabbe47ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Textures/AFRC_Tex_Emission.png using Guid(573a5992a1e562d45a64f56dabbe47ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b07ceb926b1a140330e8a043c4ef4d2') in 0.016993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002209 seconds.
+  path: Assets/race-track-lake/Textures/arrow-red.png
+  artifactKey: Guid(11825abdca2f8bc468467346f296b262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race-track-lake/Textures/arrow-red.png using Guid(11825abdca2f8bc468467346f296b262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '134dbc025f382d437f8e758737788e9c') in 0.020652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001297 seconds.
+  path: Assets/race-track-lake/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassRockyAlbedo.psd
+  artifactKey: Guid(440eb36db91ca410f800ff3cfe43572f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race-track-lake/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassRockyAlbedo.psd using Guid(440eb36db91ca410f800ff3cfe43572f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e462026894f54317095146381fc4c40') in 0.448360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs (With Colliders)/Free Racing Car Blue Variant.prefab
+  artifactKey: Guid(e9be6b9d71ce20345b55b654f6eca5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs (With Colliders)/Free Racing Car Blue Variant.prefab using Guid(e9be6b9d71ce20345b55b654f6eca5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05de073285c7117cca3c2eecccf7762') in 0.008856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf
+  artifactKey: Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf using Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5aa48736b33f873c6a27d3261f9acb7') in 0.024020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab6aeec301498d01f48bd765530d17d') in 0.095798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '093929c220a5bbd0dc52182e921c8a64') in 0.049673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001939 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat
+  artifactKey: Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat using Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cec80f67c965fa9cd546aec713c9065') in 0.377989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/race-track-lake/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassHillAlbedo.psd
+  artifactKey: Guid(c6e0767b1f8c34890ac245217f4b9731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race-track-lake/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassHillAlbedo.psd using Guid(c6e0767b1f8c34890ac245217f4b9731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281b1909c3f451271e0368a671a20252') in 0.019296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs (With Colliders)/Free Racing Car.prefab
+  artifactKey: Guid(133308cdb8794744caaef026bde9e1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs (With Colliders)/Free Racing Car.prefab using Guid(133308cdb8794744caaef026bde9e1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40976109030eec2695a55b132945432e') in 0.005970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col3.png
+  artifactKey: Guid(f5339e3a5ecdae64aa3afa490a1d892e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col3.png using Guid(f5339e3a5ecdae64aa3afa490a1d892e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b192cd1ecfa6e50c77ded9a1677ab40c') in 0.013736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/race-track-lake/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0/Branches_1.mat
+  artifactKey: Guid(fdb77c3917027234db7a7792019eda2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race-track-lake/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0/Branches_1.mat using Guid(fdb77c3917027234db7a7792019eda2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e187ad15617d2fea0e5220f9b3d4b6cf') in 0.013456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col1.png
+  artifactKey: Guid(8c508eea1762dd44cbf66593e03a6b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col1.png using Guid(8c508eea1762dd44cbf66593e03a6b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49a8044af3ed22399acb16a4f2f3965') in 0.012913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.101421 seconds.
+  path: Assets/Scenes/race_track_lake.unity
+  artifactKey: Guid(2e1336748f3797f4798cf9e588e2620f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/race_track_lake.unity using Guid(2e1336748f3797f4798cf9e588e2620f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2abf29b058b741760029876f3014fa06') in 0.003955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.258791 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef93fb8aaaffb5e5a29c0daed98fb2f') in 0.002846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 333.032382 seconds.
+  path: Assets/Scenes/race_track_lake.unity
+  artifactKey: Guid(2e1336748f3797f4798cf9e588e2620f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/race_track_lake.unity using Guid(2e1336748f3797f4798cf9e588e2620f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e67eadf217f97fb3eb289a9814ec97') in 0.005994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.707551 seconds.
+  path: Assets/Scenes/race_track_lake 1.unity
+  artifactKey: Guid(d22fd6315e02d46e39039059d5236396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/race_track_lake 1.unity using Guid(d22fd6315e02d46e39039059d5236396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161f5ac4e4dd66ca59a9ed607f20bd27') in 0.001520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.350986 seconds.
+  path: Assets/Scenes/photo race_track_lake.unity
+  artifactKey: Guid(2e1336748f3797f4798cf9e588e2620f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/photo race_track_lake.unity using Guid(2e1336748f3797f4798cf9e588e2620f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '562c3ddb39ec69479cb96e08c058ee05') in 0.001191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 212.032275 seconds.
+  path: Assets/Screen Shot 2022-11-02 at 8.09.47 pm.png
+  artifactKey: Guid(7de462b1301d84fb1a28ca44f9609321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen Shot 2022-11-02 at 8.09.47 pm.png using Guid(7de462b1301d84fb1a28ca44f9609321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0122f0a0a161f37cb824e9141e2982bd') in 0.102721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.729781 seconds.
+  path: Assets/Screen Shot 2022-11-02 at 8.09.47 pm.png
+  artifactKey: Guid(7de462b1301d84fb1a28ca44f9609321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen Shot 2022-11-02 at 8.09.47 pm.png using Guid(7de462b1301d84fb1a28ca44f9609321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3250b78639b86e897fe85e6c982c23a3') in 0.434161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.707865 seconds.
+  path: Assets/Scenes/photo race_track_lake.unity
+  artifactKey: Guid(2e1336748f3797f4798cf9e588e2620f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/photo race_track_lake.unity using Guid(2e1336748f3797f4798cf9e588e2620f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4936e2275dc5b853c817b5a613110d72') in 0.001910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 105.899071 seconds.
+  path: Assets/Scenes/race_track_lake 1.unity
+  artifactKey: Guid(d22fd6315e02d46e39039059d5236396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/race_track_lake 1.unity using Guid(d22fd6315e02d46e39039059d5236396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf633cb918f96caa8f5706566f7a63d9') in 0.002659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.947961 seconds.
+  path: Assets/Screen Shot 2022-11-02 at 8.12.30 pm.png
+  artifactKey: Guid(fe9d78b8429c74488b095ed26a1dc50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen Shot 2022-11-02 at 8.12.30 pm.png using Guid(fe9d78b8429c74488b095ed26a1dc50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392478f84f67adb1b79cc35cfe48a75f') in 0.033546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.798511 seconds.
+  path: Assets/Screen Shot 2022-11-02 at 8.12.30 pm.png
+  artifactKey: Guid(fe9d78b8429c74488b095ed26a1dc50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen Shot 2022-11-02 at 8.12.30 pm.png using Guid(fe9d78b8429c74488b095ed26a1dc50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19b758f982cf215968ddc89ade46325') in 0.513333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.944685 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(8a5f11c69553d4ab5ab96a7b98ba733f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(8a5f11c69553d4ab5ab96a7b98ba733f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b581b5c9df6126fd16d75eabe5fdcc0') in 0.002589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 206.705547 seconds.
+  path: Assets/Scenes/photo race_track_lake.unity
+  artifactKey: Guid(2e1336748f3797f4798cf9e588e2620f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/photo race_track_lake.unity using Guid(2e1336748f3797f4798cf9e588e2620f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19cf4fc7d79d3d09bdba123886f9facf') in 0.002016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 80.395977 seconds.
+  path: Assets/Screen Shot 2022-11-02 at 8.17.39 pm.png
+  artifactKey: Guid(2802531a8369a44fcbc4932d677e754d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen Shot 2022-11-02 at 8.17.39 pm.png using Guid(2802531a8369a44fcbc4932d677e754d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c84fe630466be60bb492cc776e9d86') in 0.045463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.919592 seconds.
+  path: Assets/Scenes/race_track_lake 1.unity
+  artifactKey: Guid(d22fd6315e02d46e39039059d5236396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/race_track_lake 1.unity using Guid(d22fd6315e02d46e39039059d5236396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee6590b6f703bc7a503de7fa9bc94c7') in 0.001573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.437483 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(8a5f11c69553d4ab5ab96a7b98ba733f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(8a5f11c69553d4ab5ab96a7b98ba733f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c15230aa144fe54d5efa485c76bb19') in 0.002201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.518889 seconds.
+  path: Assets/Screen Shot 2022-11-02 at 8.17.39 pm.png
+  artifactKey: Guid(2802531a8369a44fcbc4932d677e754d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen Shot 2022-11-02 at 8.17.39 pm.png using Guid(2802531a8369a44fcbc4932d677e754d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c41a1f944ce7f95a288db1902c03ca') in 0.468857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 98.340495 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset
+  artifactKey: Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset using Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003e1a5de9412f42f5fc535d606dff9f') in 0.062459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset
+  artifactKey: Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset using Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d54e47ff1d91b02c1cbdc5b4a97a98d') in 0.061498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 142.480318 seconds.
+  path: Assets/Scripts/Finish.unity
+  artifactKey: Guid(855046a0199024c76950fb96626ec22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Finish.unity using Guid(855046a0199024c76950fb96626ec22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8e8982875e0cbda7a7d965784d3e5c') in 0.003603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.330121 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_dirtdirt_n8141e087eda3d1b0.terrainlayer
+  artifactKey: Guid(7fa8337c64b8247ab94fe91bd2198e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_dirtdirt_n8141e087eda3d1b0.terrainlayer using Guid(7fa8337c64b8247ab94fe91bd2198e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4adf8f388f62a3de40f1d667b1315e') in 0.052740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_mountain-wallmountain-wall-n3fdc08e766388254.terrainlayer
+  artifactKey: Guid(2a085a5e8a9ca4b48aeb57223f659b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_mountain-wallmountain-wall-n3fdc08e766388254.terrainlayer using Guid(2a085a5e8a9ca4b48aeb57223f659b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '409268cf31f4ff2cb04d7a9f5a1a675b') in 0.040358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_SandAlbedodirt_na513b4f607ad2805.terrainlayer
+  artifactKey: Guid(6987605beda40463494fe101bf825b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_SandAlbedodirt_na513b4f607ad2805.terrainlayer using Guid(6987605beda40463494fe101bf825b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1179eaf46fe50db154deb5a66224be') in 0.024996 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005196 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.995 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2998ms)
+		BeginReloadAssembly (539ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (26ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (283ms)
+		EndReloadAssembly (2151ms)
+			LoadAssemblies (235ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (838ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (109ms)
+			SetupLoadedEditorAssemblies (840ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (124ms)
+				ProcessInitializeOnLoadAttributes (615ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3411 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (0.5 MB). Loaded Objects now: 3992.
+Memory consumption went from 318.6 MB to 318.1 MB.
+Total: 7.286280 ms (FindLiveObjects: 0.435615 ms CreateObjectMapping: 0.338689 ms MarkObjects: 5.728438 ms  DeleteObjects: 0.781550 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005657 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.758 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2760ms)
+		BeginReloadAssembly (294ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (143ms)
+		EndReloadAssembly (2233ms)
+			LoadAssemblies (150ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (907ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (121ms)
+			SetupLoadedEditorAssemblies (899ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (649ms)
+				ProcessInitializeOnLoadMethodAttributes (88ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3409 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (0.5 MB). Loaded Objects now: 3995.
+Memory consumption went from 318.5 MB to 318.0 MB.
+Total: 8.050168 ms (FindLiveObjects: 0.506287 ms CreateObjectMapping: 0.350738 ms MarkObjects: 6.470128 ms  DeleteObjects: 0.721070 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005942 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.906 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2909ms)
+		BeginReloadAssembly (222ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (98ms)
+		EndReloadAssembly (2415ms)
+			LoadAssemblies (125ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (903ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (149ms)
+			SetupLoadedEditorAssemblies (1035ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (150ms)
+				ProcessInitializeOnLoadAttributes (766ms)
+				ProcessInitializeOnLoadMethodAttributes (88ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3409 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (0.5 MB). Loaded Objects now: 3998.
+Memory consumption went from 318.8 MB to 318.3 MB.
+Total: 7.828624 ms (FindLiveObjects: 0.355078 ms CreateObjectMapping: 0.220252 ms MarkObjects: 6.510714 ms  DeleteObjects: 0.740588 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010270 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.973 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2975ms)
+		BeginReloadAssembly (318ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (141ms)
+		EndReloadAssembly (2409ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (675ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (137ms)
+			SetupLoadedEditorAssemblies (1242ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (169ms)
+				ProcessInitializeOnLoadAttributes (944ms)
+				ProcessInitializeOnLoadMethodAttributes (92ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3409 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (0.5 MB). Loaded Objects now: 4001.
+Memory consumption went from 319.0 MB to 318.4 MB.
+Total: 6.976594 ms (FindLiveObjects: 0.586375 ms CreateObjectMapping: 0.500448 ms MarkObjects: 5.377418 ms  DeleteObjects: 0.508503 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009078 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.416 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4418ms)
+		BeginReloadAssembly (346ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (129ms)
+		EndReloadAssembly (3813ms)
+			LoadAssemblies (176ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1306ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (408ms)
+			SetupLoadedEditorAssemblies (1410ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (61ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (227ms)
+				ProcessInitializeOnLoadAttributes (989ms)
+				ProcessInitializeOnLoadMethodAttributes (124ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3409 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (0.5 MB). Loaded Objects now: 4004.
+Memory consumption went from 319.1 MB to 318.6 MB.
+Total: 16.473868 ms (FindLiveObjects: 0.782151 ms CreateObjectMapping: 0.836868 ms MarkObjects: 13.888885 ms  DeleteObjects: 0.962953 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1237.786162 seconds.
+  path: Assets/Speedometer.unitypackage
+  artifactKey: Guid(5e62db5634fcb4e54b0d9d9f0446047d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Speedometer.unitypackage using Guid(5e62db5634fcb4e54b0d9d9f0446047d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd60fb2669576741f28c4d8fbfa4872c7') in 0.251596 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007262 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.038 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2040ms)
+		BeginReloadAssembly (552ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (21ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (244ms)
+		EndReloadAssembly (1264ms)
+			LoadAssemblies (244ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (578ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (449ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (321ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (0.5 MB). Loaded Objects now: 4008.
+Memory consumption went from 319.3 MB to 318.8 MB.
+Total: 3.851455 ms (FindLiveObjects: 0.312560 ms CreateObjectMapping: 0.148138 ms MarkObjects: 2.883908 ms  DeleteObjects: 0.500400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 20.904311 seconds.
+  path: Assets/Karting
+  artifactKey: Guid(dd5286efe30a54d0e9f7a7b88198be49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting using Guid(dd5286efe30a54d0e9f7a7b88198be49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf7fc5fdacba58d0259527a5f403cb2d') in 0.013780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.007411 seconds.
+  path: Assets/Karting/Speedometer
+  artifactKey: Guid(6ab367173de3f487cad25c93c0cb6f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Speedometer using Guid(6ab367173de3f487cad25c93c0cb6f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a37bc7ac8740bc4354d642bf607340') in 0.003948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.633321 seconds.
+  path: Assets/Karting/Speedometer/Arrow.png
+  artifactKey: Guid(2448f50dbbbbb4320a7ea316b988e0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Speedometer/Arrow.png using Guid(2448f50dbbbbb4320a7ea316b988e0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21eb9a13be238db71c3a212153d5581') in 0.142273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Karting/Speedometer/Speedometer.png
+  artifactKey: Guid(339a02ef3df794b75afb745cfd1febe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Speedometer/Speedometer.png using Guid(339a02ef3df794b75afb745cfd1febe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87b90dc42f7cfcaad4b40a3d0d4eb4e') in 0.086242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.122081 seconds.
+  path: Assets/Karting/Speedometer/Speedometer.unity
+  artifactKey: Guid(beb9877c4f85b4050a073bdd080d61ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Karting/Speedometer/Speedometer.unity using Guid(beb9877c4f85b4050a073bdd080d61ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2895545ce61961431ff76e769f4450d') in 0.002137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.407425 seconds.
+  path: Assets/Scenes/race_track_lake 1.unity
+  artifactKey: Guid(d22fd6315e02d46e39039059d5236396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/race_track_lake 1.unity using Guid(d22fd6315e02d46e39039059d5236396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b08440a0d22bb2f79d89c0e06875dbc') in 0.002685 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005302 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.703 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2704ms)
+		BeginReloadAssembly (263ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (132ms)
+		EndReloadAssembly (2277ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (844ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (121ms)
+			SetupLoadedEditorAssemblies (1013ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (144ms)
+				ProcessInitializeOnLoadAttributes (752ms)
+				ProcessInitializeOnLoadMethodAttributes (84ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (0.5 MB). Loaded Objects now: 4017.
+Memory consumption went from 319.8 MB to 319.2 MB.
+Total: 5.890791 ms (FindLiveObjects: 0.354611 ms CreateObjectMapping: 0.308372 ms MarkObjects: 4.644213 ms  DeleteObjects: 0.581427 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007785 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.410 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2412ms)
+		BeginReloadAssembly (296ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (147ms)
+		EndReloadAssembly (1929ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (568ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (993ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (140ms)
+				ProcessInitializeOnLoadAttributes (724ms)
+				ProcessInitializeOnLoadMethodAttributes (90ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (0.5 MB). Loaded Objects now: 4020.
+Memory consumption went from 319.9 MB to 319.3 MB.
+Total: 7.299555 ms (FindLiveObjects: 0.589293 ms CreateObjectMapping: 0.443781 ms MarkObjects: 5.595342 ms  DeleteObjects: 0.668530 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006805 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.633 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2634ms)
+		BeginReloadAssembly (236ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (101ms)
+		EndReloadAssembly (2206ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (729ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (128ms)
+			SetupLoadedEditorAssemblies (1036ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (163ms)
+				ProcessInitializeOnLoadAttributes (747ms)
+				ProcessInitializeOnLoadMethodAttributes (89ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (0.5 MB). Loaded Objects now: 4023.
+Memory consumption went from 320.1 MB to 319.5 MB.
+Total: 3.620294 ms (FindLiveObjects: 0.265573 ms CreateObjectMapping: 0.142816 ms MarkObjects: 2.735950 ms  DeleteObjects: 0.474649 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006409 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/009938/Documents/GitHub/BestMarioKartGame/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.208 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2210ms)
+		BeginReloadAssembly (257ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (124ms)
+		EndReloadAssembly (1778ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (537ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (928ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (140ms)
+				ProcessInitializeOnLoadAttributes (678ms)
+				ProcessInitializeOnLoadMethodAttributes (82ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (0.5 MB). Loaded Objects now: 4026.
+Memory consumption went from 320.4 MB to 319.8 MB.
+Total: 7.396228 ms (FindLiveObjects: 0.327245 ms CreateObjectMapping: 0.184926 ms MarkObjects: 6.406475 ms  DeleteObjects: 0.472161 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
